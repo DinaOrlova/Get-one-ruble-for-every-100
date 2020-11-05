@@ -10,6 +10,7 @@ public class Main {
         }
         int currentBalance = 143;
         int totalBalance = currentBalance + refill + totalBonus;
+        System.out.println(totalBonus);
         System.out.println(totalBalance);
     }
 }
